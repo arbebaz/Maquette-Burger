@@ -1,0 +1,245 @@
+@font-face {
+    font-family: "Homeday";
+    src: url("../fonts/Homeday.ttf");
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#container{
+
+    display: flex;
+    flex-direction: column;
+}
+
+p{
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+header{
+
+    display: flex;
+}
+
+#haut{
+
+    text-align: center;
+    display: flex;
+    flex-direction: row;
+}
+
+#deux{
+
+    margin-top: 4rem;
+    margin-left: 19rem;
+}
+
+#deux p{
+
+    color: #494C4F;
+    font-size: 25px;
+    
+}
+
+#deux h2{
+
+    color: #D9ADD6;
+    font-family: "Homeday";
+    font-size: 37px;
+}
+
+#titre{
+
+    display: flex;
+    align-items: center;
+    width: 18rem;
+    justify-content: space-between;
+}
+
+.hr{
+
+    width: 2rem;
+    height: 4px;
+    background-color: #494C4F;
+   
+}
+
+#logo{
+
+    padding: 1rem;
+}
+
+button{
+
+    padding: 0.3rem;
+    border-radius: 0.3rem;
+    background-color: #DFBBDD;
+    width: 10rem;
+    height: 3rem;
+    color: white;
+    border-color: white;
+    margin-right: 1rem;
+    
+}
+
+#bouton{
+
+    margin-left: 68rem;
+    margin-top: 1rem;
+    padding: 1rem;
+    display: flex;
+    margin-left: 60rem;
+}
+
+#commande p{
+
+    FONT-SIZE: 33px;
+    font-weight: bold;
+    background-color: #D9D9D9;
+    width: 40rem;
+    padding: 1rem;
+    color: #494C4F;
+    margin-left: 6rem;
+    margin-top: 5rem;
+    text-align: center;
+}
+
+#ligne{
+
+    border: none;
+    border-top: 4px dashed #576D8B;
+
+    margin-top: 1rem;
+    margin: 4rem;
+}
+.ligne{
+
+    border: none;
+    border-top: 4px dashed #576D8B;
+    margin: 4rem;
+    width: 40rem;
+}
+
+#maison{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#paypal{
+
+    margin-top: 6rem;
+}
+
+#visa{
+
+    margin-top: 6rem;
+}
+
+#bitcoin{
+
+    margin-top: 6rem;
+}
+
+#droite{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 3rem;
+    margin-top: 5rem;
+}
+
+#droite p {
+
+    font-size: 40px;
+    text-align: center;
+    border: solid #494C4F 10px;
+    color: #494C4F;
+    font-weight: bold;
+    margin-bottom: 2rem;
+    width: 30rem;
+    padding: 0.5rem;
+}
+
+#milieu button{
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 45px;
+    width: 25rem;
+    height: 5rem;
+}
+
+#paypal, #visa, #bitcoin{
+
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 1rem;
+}
+
+#maison p{
+
+    font-size: 45px;
+    font-weight: bold;
+    color: #676A6C;
+}
+
+#btn{
+
+    margin-left: 4rem;
+    margin-bottom: 4rem;
+}
+
+.radio{
+
+    border: solid #576D8B;
+    width: 3rem;
+    height: 3rem;
+}
+
+.radyo{
+
+    border-radius: 4rem;
+    border: solid #576D8B 4px;
+    height: 3rem;
+    width: 3rem;
+}
+
+
+
+
+footer{
+
+    background-color: #102940;
+    display: flex;
+    justify-content: space-around;
+    height: 20rem;
+}
+
+footer h3{
+
+    padding: 0.5rem;
+    color: white;
+    font-size: 25px;
+    margin-top: 1rem;
+}
+
+footer p{
+
+    padding: 0.5rem;
+    font-size: 20px;
+    color: white;
+    margin-top: 1rem;
+}
+
+footer img{
+
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+    
+}
